@@ -1,0 +1,47 @@
+.hivewoman-container {
+    width: 90%;
+    margin: 100px auto 140px;
+  }
+  
+  .flex-hive {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hivewoman-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #1e323f;
+    margin: 20px 0;
+  }
+  
+  .hivewoman-info {
+    font-size: 24px;
+    color: #1e323f;
+    margin: 20px 0;
+  }
+  
+  #hive-button {
+    background-color: var(--main-color);
+    padding: 12px 30px;
+    margin-top: 20px;
+  }
+ 
+  @media (min-width: 960px) {
+    .flex-hive {
+      flex-direction: row;
+    }
+  
+    .hivewoman-left {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .flex-hive {
+      flex-direction: row;
+    }
+  }
+  

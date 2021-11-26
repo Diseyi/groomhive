@@ -3,7 +3,51 @@
     background-color: #DFEBFF;
     border-radius: 16px;
     width: 352px;
-    height: 464px;
+    height: 470px;
     padding: 30px 25px;
     box-shadow: 20px 0px 1px #9FC2FF;
+    margin: 10px;
+}
+
+.sponsor-title {
+    font-weight: 500;
+font-size: 16px;
+text-align: center;
+margin: 10px;
+}
+
+.sponsor-flex {
+    border: 2px solid #9FC2FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.sponsor-p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sponsor-innerflex {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.checkbox {
+    margin-left: 5px;
+}
+
+.sponsor-submit {
+    color: #ffffff;
+    width: 100%;
+    background: #0050DF;
+border-radius: 4px;
+padding: 16px;
+}
+
+.ps {
+    font-size: 12px;
+    padding: 10px;
 }

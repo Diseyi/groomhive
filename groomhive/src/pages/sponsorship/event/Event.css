@@ -1,14 +1,18 @@
 .event-container {
     width: 90%;
-    margin: auto;
+    margin: 100px auto;
   }
   
   .event-flex {
-      border: 1px solid red;
+     
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .event-left {
+    margin: 10px;
   }
   
   .event-title {
@@ -31,21 +35,42 @@
     background-color: #005bff;
     width: 150px;
   }
+
+  @media (min-width: 768px) {
+.event-left {
+  width: 80%;
+  margin: 20px auto;
+}
+  }
   
   
   @media (min-width: 960px) {
-    .event-container {
+    .event-flex {
       flex-direction: row;
     }
   
     .left {
       width: 60%;
     }
+
+    .event-left {
+      width: 40%;
+      margin: 40px 0;
+    }
+
+    .event1 {
+      flex-direction: row-reverse;
+      margin: 20px auto;
+    }
+
+
+    .event2 {
+      margin-left: 0;
+      justify-content: space-between;
+    }
   }
   
   @media (min-width: 1280px) {
-    .event-container {
-      flex-direction: row;
-    }
+    
   }
   

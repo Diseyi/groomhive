@@ -1,9 +1,10 @@
 import React from 'react';
+import Apply from '../../components/apply/Apply';
 import Header from '../../components/header/Header';
 import Drive from './drive/Drive';
 import Event from './event/Event';
 import FirstSection from './firstSection/FirstSection';
-// import SponsorSection from './sponsorSection/SponsorSection';
+import SponsorSection from './sponsorSection/SponsorSection';
 
 const Sponsorship = () => {
     return (
@@ -11,8 +12,9 @@ const Sponsorship = () => {
             <Header />
             <FirstSection />
             <Drive />
-            {/* <SponsorSection /> */}
+            <SponsorSection />
             <Event />
+            <Apply />
         </div>
     )
 }

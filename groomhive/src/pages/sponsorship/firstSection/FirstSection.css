@@ -1,6 +1,6 @@
 .home-container {
     width: 90%;
-    margin: auto;
+    margin: 120px auto;
   }
   
   .flex-container {
@@ -36,6 +36,15 @@
     color: var(--main-color);
     margin: 0 10px;
     width: 150px;
+  }
+
+  /* grid */
+  .top-flex {
+    display: flex;
+  }
+
+  .top-image {
+    padding: 10px;
   }
   
   @media (min-width: 960px) {

@@ -1,6 +1,6 @@
 
 .testiomonial-container {
-    background: #f5f9ff;
+  background-color: #ffffff;
     width: 100%;
     margin-top: 80px;
     padding: 50px 0;
@@ -24,6 +24,17 @@
     align-items: center;
     margin-top: 50px;
   }
+
+  .center-text {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .p-testiomonial {
+    font-size: 24px;
+    font-weight: 500;
+  }
   
   @media (min-width: 968px) {
     .testiomonial-section-title {
@@ -34,9 +45,14 @@
     .testimonial-flex {
       flex-direction: row;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-evenly;
       flex-wrap: wrap;
     }
+
+    .center-text {
+      width: 70%;
+    }
+    
   }
   
   @media (min-width: 1200px) {
@@ -48,7 +64,11 @@
     .testimonial-flex {
       flex-direction: row;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-evenly;
+    }
+
+    .center-text {
+      width: 40%;
     }
   }
   

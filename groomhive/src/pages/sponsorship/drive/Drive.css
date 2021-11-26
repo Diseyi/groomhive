@@ -1,7 +1,8 @@
 
 
 .drive-section {
-    background: #ffffff;
+    background: #F5F9FF;
+    padding: 20px 0;
 }
 
 .drive-section-title {
@@ -11,15 +12,18 @@
 }
 
 .drive-title {
-    color: #1E323F;
+
+    color: var(--darkblue-color) ;
     font-size: 40px;
 font-weight: 700;
+margin: 10px 0;
 }
 
 .drive-info {
     color: #1E323F;
     font-size: 24px;
-
+    margin: 10px 0 ;
+    padding: 20px;
 }
 
 .drive-flex {
@@ -28,7 +32,27 @@ font-weight: 700;
 }
 
 .drive-options {
-    margin: 10px 0;
+    margin: 15px 10px;
+}
+
+.drive-h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.goals-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.details-light {
+    color: #666666;
+    font-weight: 500;
 }
 
 @media (min-width: 768px) {
@@ -39,7 +63,7 @@ font-weight: 700;
     .drive-flex {
         display: flex;
         flex-direction: row;
-        width: 80%;
+        width: 90%;
         margin: auto;
         justify-content: space-between;
         align-items: center;

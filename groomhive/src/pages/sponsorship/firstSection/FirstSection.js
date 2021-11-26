@@ -1,6 +1,8 @@
 import React from "react";
-import GridPicture from "../../../components/gridPicture/GridPicture";
 import SubmitButton from "../../../components/submitButton/SubmitButton";
+import sponsorimage1 from "../../../assets/sponsor-image1.png";
+import sponsorimage2 from "../../../assets/sponsor-image2.png";
+import sponsorimage3 from "../../../assets/sponsor-image3.png";
 import './FirstSection.css';
 
 const FirstSection = () => {
@@ -23,7 +25,15 @@ const FirstSection = () => {
             <SubmitButton value="See How" id="light-blue" />
           </div>
         </div>
-        <GridPicture />
+        <div className="top-flex">
+        <div className="top-column" >
+          <img src={sponsorimage1} alt="grid" className="top-image"  />
+        </div>
+        <div className="top-column">
+          <img src={sponsorimage2} alt="grid" className="top-image" />
+          <img src={sponsorimage3} alt="grid" className="top-image" />
+        </div>
+      </div>
       </div>
     </section>
   );

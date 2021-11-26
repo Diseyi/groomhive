@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../../assets/image.png";
+import driveimage from "../../../assets/drive-image.png";
 import "./Drive.css";
 
 const Drive = () => {
@@ -17,9 +17,12 @@ const Drive = () => {
         </p>
       </div>
       <div className="drive-flex">
-        <img src={image} alt="lady with a laptop" className="drive-left" />
+        <img src={driveimage} alt="lady with a laptop" className="drive-left" />
         <div className="drive-right">
-        <h3>Our Goals in numbers</h3>
+        <h3 className="drive-h3" >Our Goals in numbers</h3>
+
+        <div className="goals-flex">
+          <div className="goals-column" >
           <div className="drive-options">
             <h3 className="numbers" >400%</h3>
             <p className="details-light" >
@@ -28,24 +31,28 @@ const Drive = () => {
           </div>
 
           <div className="drive-options">
-            <h3 className="numbers" >400%</h3>
+            <h3 className="numbers" >20</h3>
             <p className="details-light" >
-            Increase in employability
+            Starts
+            </p>
+          </div>
+          </div>
+
+          <div className="goals-column" >
+          <div className="drive-options">
+            <h3 className="numbers" >89%</h3>
+            <p className="details-light" >
+            Engagement Rate
             </p>
           </div>
 
           <div className="drive-options">
-            <h3 className="numbers" >400%</h3>
+            <h3 className="numbers" >89%</h3>
             <p className="details-light" >
-            Increase in employability
+            Engagement Rate
             </p>
           </div>
-
-          <div className="drive-options">
-            <h3 className="numbers" >400%</h3>
-            <p className="details-light" >
-            Increase in employability
-            </p>
+          </div>
           </div>
           
         </div>
