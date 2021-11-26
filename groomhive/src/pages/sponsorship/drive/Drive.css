@@ -1,0 +1,68 @@
+
+
+.drive-section {
+    background: #ffffff;
+}
+
+.drive-section-title {
+    text-align: center;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.drive-title {
+    color: #1E323F;
+    font-size: 40px;
+font-weight: 700;
+}
+
+.drive-info {
+    color: #1E323F;
+    font-size: 24px;
+
+}
+
+.drive-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.drive-options {
+    margin: 10px 0;
+}
+
+@media (min-width: 768px) {
+    .drive-section-title {
+        width: 70%;
+    }
+
+    .drive-flex {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .drive-left {
+        width: 47%;
+    }
+
+    .drive-right {
+        width: 47%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .drive-section-title {
+        width: 50%;
+    }
+
+    .drive-flex {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        margin: auto;
+    }
+}

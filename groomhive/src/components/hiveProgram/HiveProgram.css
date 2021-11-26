@@ -1,0 +1,17 @@
+
+.program-modal {
+    width: 312px
+}
+
+.image {
+    width: 312px;
+    height: 272px;
+}
+
+.program-title {
+    font-size: 32px;
+    font-weight: 700;
+line-height: 40px;
+    text-align: center;
+    margin: 20px 0;
+}

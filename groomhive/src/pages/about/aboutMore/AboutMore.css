@@ -1,0 +1,40 @@
+.about-more-container {
+  background-color: #ffffff;
+  padding: 100px 0;
+}
+
+.about-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #002e80;
+  text-align: center;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.about-other-info {
+  font-size: 24px;
+  color: #0e0e2c;
+  width: 70%;
+  margin: auto;
+}
+
+@media (min-width: 968px) {
+  .about-title {
+    width: 65%;
+  }
+
+  .about-other-info {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-title {
+    width: 55%;
+  }
+
+  .about-other-info {
+    width: 50%;
+  }
+}

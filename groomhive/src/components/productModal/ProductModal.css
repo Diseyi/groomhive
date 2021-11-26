@@ -1,0 +1,21 @@
+
+.product-modal {
+    background-color: var(--primary-color);
+    border-radius: 32px;
+    width: 352px;
+    height: 464px;
+    padding: 30px 25px;
+    box-shadow: 30px 0px 1px #9FC2FF;
+    margin: 10px;
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 40px;
+    padding: 25px 0;
+}
+
+.product-information {
+    color: #1E323F;
+    font-weight: 400;
+}

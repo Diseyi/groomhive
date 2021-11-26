@@ -1,0 +1,25 @@
+
+.footer-container {
+    background: #FAFCFF;
+    /* padding: 40px 60px; */
+}
+
+
+.flex {
+    border: 1px solid;
+    width: 100%;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+}
+
+.flex-container {
+    width: 50%;
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}

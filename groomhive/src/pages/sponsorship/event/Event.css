@@ -1,0 +1,51 @@
+.event-container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .event-flex {
+      border: 1px solid red;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .event-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #1e323f;
+  }
+  
+  .event-info {
+    font-size: 24px;
+    color: #1e323f;
+  }
+  
+  .event-button {
+    display: flex;
+    margin: 30px 0;
+  }
+  
+  #event-blue {
+    background-color: #005bff;
+    width: 150px;
+  }
+  
+  
+  @media (min-width: 960px) {
+    .event-container {
+      flex-direction: row;
+    }
+  
+    .left {
+      width: 60%;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .event-container {
+      flex-direction: row;
+    }
+  }
+  
