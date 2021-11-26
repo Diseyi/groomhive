@@ -1,11 +1,8 @@
 
-.topsection-container {
-    background: #0050DF;
-}
 
 .topsection-div {
     background: #0050DF;
-   padding: 60px 20px 60px 0;
+   padding: 100px 20px 100px 0;
     padding-left: 5%;
 }
 
@@ -16,10 +13,10 @@
     line-height: 56px;
 }
 
-.other-info {
+.top-p {
     color: #ffffff;
-    font-weight: 24px;
-    margin: 10px 0;
+    font-size: 24px;
+    margin: 15px 0;
 }
 
 #topsection-button {

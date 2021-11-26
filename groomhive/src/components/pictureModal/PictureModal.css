@@ -5,12 +5,14 @@
     height: 456px;
     color: #fff;
     text-align: center;
+    margin: 10px 8px;
 }
 
 .picture {
     position: absolute;  
     width: 384px;
     height: 456px;
+    border-radius: 2px;
 }
 
 .connect {
