@@ -1,0 +1,82 @@
+.whyhire-container {
+    background: #f5f9ff;
+    width: 100%;
+    margin-top: 80px;
+    padding: 50px 0;
+  }
+  
+  .whyhire-section {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 50px 0;
+  }
+
+  .whyhire-div {
+      padding: 20px;
+  }
+  
+  .whyhire-title {
+    color: #1E323F;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .whyhire-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 70%;
+  }
+
+  .hire-innerflex {
+      display: flex;
+      margin: 20px 0;
+      justify-content: flex-start;
+      align-items: flex-start;
+  }
+
+  .hire-icon {
+      padding: 0;
+      margin: 0;
+      margin-right: 10px;
+  }
+
+  .flext-title {
+      font-weight: 700; 
+  }
+
+  .flex-p {
+      width: 200px;
+  }
+
+  .hire-number {
+    font-weight: 900;
+    font-size: 24px;
+    color: #D9D9D9;
+    margin: 10px;
+  }
+
+  @media (min-width: 768px) {
+    .whyhire-flex {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+  }
+  
+  @media (min-width: 968px) {
+    .whyhire-title {
+      width: 80%;
+      margin: auto;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .whyhire-title {
+      width: 50%;
+      margin: auto;
+    }
+  }
+  

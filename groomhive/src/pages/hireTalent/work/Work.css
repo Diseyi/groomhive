@@ -1,0 +1,94 @@
+
+
+.work-section {
+    background: #ffffff;
+    padding: 20px 0;
+}
+
+.drive-section-title {
+    text-align: center;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.drive-title {
+
+    color: var(--darkblue-color) ;
+    font-size: 40px;
+font-weight: 700;
+margin: 10px 0;
+}
+
+.drive-info {
+    color: #1E323F;
+    font-size: 24px;
+    margin: 10px 0 ;
+    padding: 20px;
+}
+
+.drive-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.drive-options {
+    margin: 15px 10px;
+}
+
+.drive-h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.goals-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-work-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.work-light {
+     color: #4D4D4D;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+@media (min-width: 768px) {
+    .drive-section-title {
+        width: 70%;
+    }
+
+    .drive-flex {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .drive-left {
+        width: 47%;
+    }
+
+    .drive-right {
+        width: 47%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .drive-section-title {
+        width: 50%;
+    }
+
+    .drive-flex {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        margin: auto;
+    }
+}

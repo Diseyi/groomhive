@@ -19,3 +19,16 @@ margin: 7px;
     margin: 30px 0;
     padding: 8px 40px;
 }
+
+.apply-p {
+    width: 80%;
+    margin: auto;
+}
+
+@media (min-width:968px) {
+    .apply-p {
+        width: 50%;
+        margin: auto;
+        font-size: 16px;
+    }
+}

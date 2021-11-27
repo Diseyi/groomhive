@@ -1,0 +1,62 @@
+.talent-container {
+    width: 100%;
+    margin: 20px auto 0;
+  }
+  
+  .talent-flex {
+    background: #0050DF;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+  }
+  
+  .talent-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    margin: 20px 0;
+  }
+  
+  .talent-info {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 20px 0;
+  }
+  
+  #talent-button {
+    background-color: var(--primary-color);
+    color: #0050DF;
+    padding: 15px;
+    width: 150px;
+    margin: 20px 0;
+  }
+
+  .talent-right {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .talent-image {
+      padding: 0;
+      margin: 0;
+
+  }
+ 
+  @media (min-width: 960px) {
+    .talent-flex {
+      flex-direction: row;
+    }
+  
+    .talent-left {
+      width: 60%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .talent-flex {
+      flex-direction: row;
+    }
+  }
+  

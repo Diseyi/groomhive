@@ -1,16 +1,12 @@
 import React from "react";
 import "./ProductModal.css";
 
-const ProductModal = () => {
+const ProductModal = (props) => {
   return (
-    <div className="product-modal">
-      <h3 className="product-title">Design Thinking</h3>
-      <p className="product-information">
-        Though you may be learning remotely, you won't be working alone. Our
-        collaborative coursework simulates the type of environment you'll work
-        in as a web developer or data scientist. Attend daily stand-ups with
-        your cohort, complete monthly group projects with a team of students,
-        build and ship real products.
+    <div className="product-modal" id={props.id}>
+      <h3 className="product-title">{props.title}</h3>
+      <p className="product-information" id={props.padding}>
+        {props.info}
       </p>
     </div>
   );

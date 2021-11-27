@@ -19,7 +19,8 @@ const Home = () => {
             <Videosection />
             <JoinGroomhive />
             <ProductSection />
-            <Apply />
+            <Apply
+            apply="Probably the best decision you’ll ever make" />
             <FAQs />
         </div>
     )
