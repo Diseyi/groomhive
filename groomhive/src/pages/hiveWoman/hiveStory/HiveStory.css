@@ -1,0 +1,78 @@
+.hivestory-container {
+  width: 90%;
+  margin: 100px auto;
+}
+
+.hivestory-flex {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hivestory-left {
+  margin: 10px;
+}
+
+.case {
+  font-weight: 800;
+  font-size: 24px;
+  color: #D9D9D9;
+  margin: 16px 0px;
+}
+
+.hivestory-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #000000;
+  margin: 16px 0px;
+}
+
+.hivestory-info {
+  font-size: 16px;
+  color: #1e323f;
+}
+
+#hivestory-blue {
+  background-color: #005bff;
+  width: 150px;
+}
+
+@media (min-width: 768px) {
+  .hivestory-left {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+
+@media (min-width: 960px) {
+  .hivestory-flex {
+    flex-direction: row;
+  }
+
+  .hivestory {
+    width: 60%;
+  }
+
+  .hivestory-left {
+    width: 40%;
+    margin: 40px 0;
+  }
+
+  .hivestory2 {
+    flex-direction: row-reverse;
+    margin: 20px auto;
+  }
+
+  .hivestoryt1 {
+    margin-left: 0;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hivestory-image {
+    width: 684px;
+    height: 526px;
+  }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/groomHive.svg";
 import './Header.css';
+import { Outlet, Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -17,6 +18,7 @@ const Header = () => {
           <button className="Button-Header">Sponsorship</button>
           <button className="Button-Header">About Us</button>
           <button className="Button-Menu" >Menu</button>
+         
         {/* </div>
 
         <div className="GetStarted-Header Flex-Header"> */}

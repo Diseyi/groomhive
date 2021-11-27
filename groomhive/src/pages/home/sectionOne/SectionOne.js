@@ -1,7 +1,11 @@
 import React from "react";
 import GridPicture from "../../../components/gridPicture/GridPicture";
 import SubmitButton from "../../../components/submitButton/SubmitButton";
-import './SectionOne.css'
+import picture1 from "../../../assets/home-image1.png";
+import picture2 from "../../../assets/home-image2.png"
+import picture3 from "../../../assets/home-image3.png";
+import picture4 from "../../../assets/home-image4.png"
+import './SectionOne.css';
 
 const SectionOne = () => {
   return (
@@ -20,7 +24,13 @@ const SectionOne = () => {
               <SubmitButton value="See How" id="light-blue" />
             </div>
           </div>
-          <GridPicture />
+          <GridPicture
+          picture1={picture1}
+          picture2={picture2}
+          picture3={picture3}
+          picture4={picture4}
+          
+          />
         </div>
 
     </section>
