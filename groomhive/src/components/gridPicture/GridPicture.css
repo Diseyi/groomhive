@@ -1,12 +1,10 @@
 
-.row {
+
+.grid-row {
     display: flex;
 }
 
-img {
-    padding: 10px ;
-}
-
-@media (min-width: 1200px) {
-   
+.grid-imag {
+    padding: 0;
+    margin: 0;
 }

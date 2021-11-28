@@ -10,6 +10,7 @@ import Sponsorship from "./pages/sponsorship/Sponsorship";
 import About from "./pages/about/About";
 import Home from "./pages/home/Home";
 import HireTalent from "./pages/hireTalent/HireTalent";
+import TestimonialModal from "./components/testimonialModal/TestimonialModal";
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
 
       {/* </Routes>
       </BrowserRouter> */}
-       <Home />
+     <HireTalent />
     </div>
   );
 }

@@ -3,14 +3,14 @@ import "./GridPicture.css";
 
 const GridPicture = (props) => {
   return (
-      <div className="row">
-        <div className="column" >
-          <img src={props.picture1} alt="grid" className="first"  />
-          <img src={props.picture3} alt="grid" className="third" />
+      <div className="grid-row">
+        <div className="grid-column" >
+          <img src={props.picture1} alt="grid" className="grid-imag"  />
+          <img src={props.picture3} alt="grid" className="grid-imag" />
         </div>
-        <div className="column">
-          <img src={props.picture2} alt="grid"  />
-          <img src={props.picture4} alt="grid"  />
+        <div className="grid-column">
+          <img src={props.picture2} alt="grid" className="grid-imag" />
+          <img src={props.picture4} alt="grid" className="grid-imag" />
         </div>
       </div>
   );

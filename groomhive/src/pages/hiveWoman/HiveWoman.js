@@ -1,5 +1,6 @@
 import React from 'react'
 import Apply from '../../components/apply/Apply'
+import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
 import CodeWar from './codewar/CodeWar'
 import Hivegallery from './hiveGallery/Hivegallery'
@@ -17,6 +18,7 @@ const HiveWoman = () => {
             <Hivegallery />
             <SponsorWoman />
             <Apply />
+            <Footer />
         </div>
     )
 }

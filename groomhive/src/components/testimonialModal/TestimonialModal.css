@@ -1,0 +1,28 @@
+
+.testimony-modal {
+    width: 354px;
+    
+}
+
+.client-testimony {
+    border: 3px solid #9FC2FF;
+    border-radius: 20px;
+height: 456px;
+background: #F5F9FF;
+padding: 40px;
+}
+
+.testimony {
+    color: #333333;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.username-container { 
+    text-align: center;
+    padding: 20px;
+}
+
+.client-title {
+    margin-top: 3px;
+}

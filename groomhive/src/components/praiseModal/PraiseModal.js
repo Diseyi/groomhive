@@ -1,11 +1,11 @@
 import React from "react";
 import user from "../../assets/Ellipse.png";
-import './TestimonyModal.css';
+import './PraiseModal.css';
 
-const TestimonyModal = (props) => {
+const PraiseModal = (props) => {
   return (
     <section className="outer-container">
-      <img src={user} alt="testimonial" className="user-image" />
+      <img src={user} alt="praise" className="user-image" />
      
       <p>
         @groomHive is absolutely bananas. I used to work in sociology and I made
@@ -22,4 +22,4 @@ const TestimonyModal = (props) => {
   );
 };
 
-export default TestimonyModal;
+export default PraiseModal;

@@ -1,5 +1,5 @@
 import React from "react";
-import TestimonyModal from "../../../components/testiomonyModal/TestimonyModal";
+import PraiseModal from "../../../components/praiseModal/PraiseModal";
 import "./TestimonialSection.css";
 
 const TestimonialSection = () => {
@@ -10,9 +10,9 @@ const TestimonialSection = () => {
           We are bridging the skill gap in the Niger Delta Region of Nigeria.
         </h2>
         <div className="testimonial-flex">
-          <TestimonyModal />
-          <TestimonyModal />
-          <TestimonyModal />
+        <PraiseModal />
+        <PraiseModal />
+          <PraiseModal />
         </div>
       </section>
     </div>
