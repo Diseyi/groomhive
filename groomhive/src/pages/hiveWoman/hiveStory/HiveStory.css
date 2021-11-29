@@ -38,6 +38,11 @@
   width: 150px;
 }
 
+/* .hivestory-image {
+  width: 300px;
+  height: 526px;
+} */
+
 @media (min-width: 768px) {
   .hivestory-left {
     width: 80%;

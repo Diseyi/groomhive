@@ -20,11 +20,13 @@ const HiveStory = () => {
             representation in tech.
           </p>
         </div>
+        <div className="hivestory-image-div" >
         <img
           src={hivewoman2}
           alt="a lady looking into the laptop"
           className="hivestory-image"
         />
+      </div>
       </div>
 
       <div className="hivestory-flex hivestory2">

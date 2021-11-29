@@ -3,13 +3,13 @@ import SubmitButton from "../../../components/submitButton/SubmitButton";
 import sponsorimage1 from "../../../assets/sponsor-image1.png";
 import sponsorimage2 from "../../../assets/sponsor-image2.png";
 import sponsorimage3 from "../../../assets/sponsor-image3.png";
-import './FirstSection.css';
+import "./FirstSection.css";
 
 const FirstSection = () => {
   return (
     <section className="home-container">
       <div className="flex-container">
-        <div className="left">
+        <div className="top-left">
           <h1 className="bold-title">
             We are more than just the tech Groomers, We are changing the
             narratives in the Niger Delta
@@ -26,14 +26,14 @@ const FirstSection = () => {
           </div>
         </div>
         <div className="top-flex">
-        <div className="top-column" >
-          <img src={sponsorimage1} alt="grid" className="top-image"  />
+          <div className="top-column">
+            <img src={sponsorimage1} alt="grid" className="top-image" />
+          </div>
+          <div className="top-column">
+            <img src={sponsorimage2} alt="grid" className="top-image" />
+            <img src={sponsorimage3} alt="grid" className="top-image" />
+          </div>
         </div>
-        <div className="top-column">
-          <img src={sponsorimage2} alt="grid" className="top-image" />
-          <img src={sponsorimage3} alt="grid" className="top-image" />
-        </div>
-      </div>
       </div>
     </section>
   );

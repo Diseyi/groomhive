@@ -10,8 +10,8 @@ const TestimonialSection = () => {
           We are bridging the skill gap in the Niger Delta Region of Nigeria.
         </h2>
         <div className="testimonial-flex">
-        <PraiseModal />
-        <PraiseModal />
+          <PraiseModal />
+          <PraiseModal />
           <PraiseModal />
         </div>
       </section>

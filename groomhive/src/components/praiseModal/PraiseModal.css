@@ -1,32 +1,32 @@
 
-.outer-container {
+.praise-container {
     background-color: #ffffff;
     border-radius: 32px;
     padding: 28px 32px;
     text-align: center;
     align-items: center;
-    width: 384px;
+    width: 354px;
     margin: 10px;
 }
 
-.user-image {
+.praiseuser-image {
     display: block;
     width: 56px;
 height: 56px;
 margin: 0 auto 15px;
 }
 
-.full-name {
+.praisefull-name {
     font-weight: 600;
 font-size: 16px;
 margin-top: 5px;
 }
 
-.user-name {
+.praiseuser-name {
     font-size: 12px;
 }
 
-.time-stamp {
+.praisetime-stamp {
     font-size: 12px;
     font-weight: 400;
     color: black;

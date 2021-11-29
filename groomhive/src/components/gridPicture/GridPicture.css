@@ -2,9 +2,22 @@
 
 .grid-row {
     display: flex;
+    flex-direction: column;
+}
+
+.grid-column {
+    display: flex;
+    flex-direction: column;
 }
 
 .grid-imag {
     padding: 0;
-    margin: 0;
+    margin: 5px;
+}
+
+@media (min-width: 568px) {
+    .grid-row {
+        display: flex;
+        flex-direction: row;
+    }
 }
