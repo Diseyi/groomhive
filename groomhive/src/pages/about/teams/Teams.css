@@ -30,8 +30,23 @@
       display: flex;
       justify-content: space-evenly;
       color: #005BFF;
-
       font-family: 700;
+  }
+
+  #teams {
+    background: none;
+    border: none;
+    color: #005BFF;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  #teams:hover {
+    color: #002E80;
+  }
+
+  #teams:active {
+    color: #002E80;
   }
 
   @media (min-width: 768px) {
@@ -68,8 +83,8 @@
   
     .teams-flex {
       flex-direction: row;
-      align-items: center;
-      justify-content: space-evenly;
+      /* align-items: center;
+      justify-content: space-evenly; */
     }
   }
   

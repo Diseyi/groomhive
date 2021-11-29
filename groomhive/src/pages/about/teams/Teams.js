@@ -12,11 +12,11 @@ const Teams = () => {
   return (
     <div className="teams-container">
       <section className="teams-section">
-        <h2 className="teams-section-title">Our Groom Team</h2>
+        <h2 className="teams-section-title">Our Groom Team </h2>
         <div className="teams-title">
-            <button className="teams" >Groom Chiefs</button>
-            <button className="teams" >Board Of Directors</button>
-            <button className="teams" >Board of Advisors</button>
+            <button id="teams" >Groom Chiefs</button>
+            <button id="teams" >Board Of Directors</button>
+            <button id="teams" >Board of Advisors</button>
         </div>
         <div className="teams-flex">
           <PictureModal picture={picture1} name="Herman Defoe" title="Senior UX Designer" />
