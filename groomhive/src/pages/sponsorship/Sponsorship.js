@@ -15,7 +15,7 @@ const Sponsorship = () => {
             <Drive />
             <SponsorSection />
             <Event />
-            <Apply />
+            <Apply apply="Probably the best decision you’ll ever make" />
             <Footer />
         </div>
     )

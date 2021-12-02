@@ -96,7 +96,7 @@
         background-color: var(--primary-color);
         border-radius: 4px;
         color: --main-color;
-        padding: 7px 30px;
+        padding: 14px 30px;
         color: var(--main-color);
     }
     
@@ -105,7 +105,7 @@
       border: none;
       border-radius: 4px;
       color: #ffffff;
-      padding: 7px 30px;
+      padding: 14px 30px;
     }
     
   }

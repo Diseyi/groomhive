@@ -6,7 +6,7 @@ const Videosection = () => {
   return (
     <section className="video-section-container">
         <div className="sponsor-div">
-          <h1 className="sponsor-title">
+          <h1 className="sponsorr-title">
             We are more than just the tech Groomers, We are changing the
             narratives in the Niger Delta
           </h1>

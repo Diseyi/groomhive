@@ -3,6 +3,7 @@ import ProductModal from "../../../components/productModal/ProductModal";
 import './ProductSection.css'
 
 const ProductSection = () => {
+
   return (
     <div className="product-container">
       <section className="product-section">
@@ -28,7 +29,7 @@ const ProductSection = () => {
           padding="addPadding"
           />
            <ProductModal
-          title="Product Design"
+          title=  {'Product Design'} 
           info="Emphasis is placed on Product validation, UI/UX practices, Design thinking, Design Sprint and the process for setting and tracking actionable metrics."
           padding="addPadding"
           />
