@@ -4,6 +4,7 @@ import twitter from "../../assets/black-twitter.png";
 import linkedin from "../../assets/black-linkedin.png";
 import medium from "../../assets/medium-icon.png";
 import instagram from "../../assets/instagram-icon.png";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -15,7 +16,7 @@ const Footer = () => {
         <div className="footerflex-container" >
           <h3 className="footerflex-title">Company</h3>
           <ul className="list-wrapper">
-            <li className="list-footer">About</li>
+          <Link to="/about" style={{ textDecoration: 'none' }} ><li className="list-footer">About</li> </Link>
             <li className="list-footer">Careers</li>
             <li className="list-footer">Our People</li>
           </ul>
@@ -24,7 +25,7 @@ const Footer = () => {
         <div className="footerflex-container" >
           <h3 className="footerflex-title">What We Do</h3>
           <ul className="list-wrapper">
-            <li className="list-footer">Hire Talent</li>
+          <Link to="/hiretalent" style={{ textDecoration: 'none' }} ><li className="list-footer">Hire Talent</li> </Link>
             <li className="list-footer">Product Development</li>
             <li className="list-footer">Partnership</li>
           </ul>
@@ -69,7 +70,7 @@ const Footer = () => {
 
         <div className="footerflex-container margin-top" >
           <h3 className="footerflex-title">Contact With Us</h3>
-          <div className="list-wrapper icon-flexfooter">
+          <div className="flex flex-row">
             <img src={linkedin} alt="twitter icon" className="footer-icon" />
             <img src={twitter} alt="twitter icon" className="footer-icon" />
             <img src={instagram} alt="twitter icon" className="footer-icon" />

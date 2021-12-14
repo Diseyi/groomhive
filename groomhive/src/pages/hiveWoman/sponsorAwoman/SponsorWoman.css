@@ -1,8 +1,7 @@
 
 .sponsor-woman {
     background-color: #ffffff;
-    color: #ffffff;
-    padding: 55px;
+    padding: 70px;
     text-align: center;
     width: 100%;
 }
@@ -32,6 +31,16 @@ color: #1E323F;
 @media (min-width: 768px) {
     .sponsor-woman {
         width: 60%;
+        margin: auto;
+    }
+
+    
+}
+
+@media (min-width: 960px) {
+    .p-sponsorwoman {
+        width: 40%;
+        text-align: center;
         margin: auto;
     }
 }

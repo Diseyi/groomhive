@@ -46,8 +46,8 @@
     flex-direction: row;
   }
 
-  .left {
-    width: 60%;
+  .home-left {
+    width: 50%;
   }
 }
 
@@ -55,4 +55,6 @@
   .flex-container {
     flex-direction: row;
   }
+
+  
 }

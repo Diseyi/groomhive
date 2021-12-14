@@ -15,7 +15,7 @@ const PraiseModal = (props) => {
       </p>
       <p className="praisefull-name">Boma Daniels</p>
       <p  className="praisetime-stamp" >
-        <span className="praiseuser-name">@bomdan</span>{" "}
+        <span className="praiseuser-name">@bomdan </span>{" "}{" "}
         January 12, 2021
       </p>
     </section>

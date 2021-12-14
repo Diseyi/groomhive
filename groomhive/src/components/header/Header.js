@@ -1,14 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import logo from "../../assets/groomHive.svg";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import Navbar from "../Navbar";
 
 const Header = () => {
+  const [navbar, setNavbar] = useState(false)
+  const openNav = () => {
+    setNavbar(true)
+  }
+
+
   return (
     <div className="Header">
       <div className="Mobile-Header">
       <Link to="/" style={{ textDecoration: 'none' }} > <img src={logo} alt="logo" className="logo" /></Link>
-        <button className="Button-Menu">
+        <button className="Button-Menu" onClick={openNav} >
           <svg viewBox="0 0 100 60" width="40" height="40">
             <rect width="100" height="10"></rect>
             <rect y="23" width="100" height="10"></rect>
@@ -43,6 +50,9 @@ const Header = () => {
           <button className="Button-Header skyblue">Apply Now</button>
           <button className="Register-Header">Apply Now</button>
         </div>
+      </div>
+      <div >
+      {navbar && <Navbar onClick={()=>setNavbar(false)} />}
       </div>
     </div>
   );

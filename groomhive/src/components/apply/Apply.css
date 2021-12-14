@@ -2,7 +2,7 @@
 .apply {
     background-color: var( --darkblue-color);
     color: #ffffff;
-    padding: 45px;
+    padding: 80px;
     text-align: center;
     width: 100%;
 }

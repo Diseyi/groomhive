@@ -13,7 +13,7 @@ const SponsorSection = () => {
           program simultaneously.
         </p>
         <div className="testimonial-flex">
-          <SponsorModal  
+          <SponsorModal 
           title="Month"
           amount="#120,000" 
           />
@@ -22,9 +22,12 @@ const SponsorSection = () => {
            title="Yeah"
            amount="#120,000"
           />
-          <SponsorModal 
+          <SponsorModal
            title="Custom"
            amount="#120,000"
+           className="border border-dashed border-black pl-1 pr-1  "
+           minus="-"
+           plus="+"
           />
         </div>
       </section>

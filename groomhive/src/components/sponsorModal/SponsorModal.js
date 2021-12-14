@@ -13,49 +13,49 @@ const SponsorModal = (props) => {
       <div className="sponsor-innerflex">
         <label>Feeding</label>
         <div>
-          <input type="checkbox" name="checkbox" className="checkbox"></input>
-          <label>
-            <span className="numof sponsor">1</span>Hiver
+         <span className={props.className}>{props.minus} </span>
+          <label className="pr-1 pl-1" >
+            <span className="numof sponsor">1 {" "} </span>Hiver
           </label>
-          <input type="checkbox" name="checkbox" className="checkbox"></input>
+          <span className={props.className}>{props.plus} </span>
         </div>
       </div>
 
       <div className="sponsor-innerflex">
         <label>Feeding</label>
         <div>
-          <input type="checkbox" name="checkbox" className="checkbox"></input>
-          <label>
-            <span className="numof sponsor">1</span>Hiver
+        <span className={props.className}>{props.minus} </span>
+          <label className="pr-1 pl-1" >
+            <span className="numof sponsor">1 {" "} </span>Hiver
           </label>
-          <input type="checkbox" name="checkbox" className="checkbox"></input>
+          <span className={props.className}>{props.plus} </span>
         </div>
       </div>
 
       <div className="sponsor-innerflex">
         <label>Feeding</label>
         <div>
-          <input type="checkbox" name="checkbox" className="checkbox"></input>
-          <label>
-            <span className="numof sponsor">1</span>Hiver
+        <span className={props.className}>{props.minus} </span>
+          <label className="pr-1 pl-1" >
+            <span className="numof sponsor">1 {" "} </span>Hiver
           </label>
-          <input type="checkbox" name="checkbox" className="checkbox"></input>
+          <span className={props.className}>{props.plus} </span>
         </div>
       </div>
 
       <div className="sponsor-innerflex">
         <label>Feeding</label>
-        <div>
-          <input type="checkbox" name="checkbox" className="checkbox"></input>
-          <label>
-            <span className="numof sponsor">1</span>Hiver
+        <div className=" " >
+        <span className={props.className}>{props.minus} </span>
+          <label className="pr-1 pl-1" >
+            <span className="numof sponsor">1 {" "} </span>Hiver
           </label>
-          <input type="checkbox" name="checkbox" className="checkbox"></input>
+          <span className={props.className}>{props.plus} </span>
         </div>
       </div>
 
       <button className="sponsor-submit">
-        Sponsor <span className="result">1</span> Hiver
+        Sponsor <span className="result">1 {" "} </span> Hiver
       </button>
       
       <p className="ps">

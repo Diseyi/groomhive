@@ -20,7 +20,7 @@ ReactDOM.render(
       <Route path="/about" element={<About />} />
       <Route path="/sponsorship" element={<Sponsorship />} />
       <Route path="/hivewoman" element={ <HiveWoman />} />
-      <Route path="/about" element={ <HireTalent />} />
+      <Route path="/hiretalent" element={ <HireTalent />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
